@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="projectjs.css"
+    </head>
+    <body>
+            
+    <div id="main">
+      <fieldset>
+         <legend><h2>SIGN UP</h2></legend>
+
+        <form name="f1" onsubmit="return validate()" action="projectjs1.html">
+
+          FirstName:<input type="text" id="fn">
+          <span id="msg1" style="color:red;"></span><br><br>
+
+          LastName:<input type="text" id="ln">
+          <span id="msg2" style="color:red;"></span><br><br>
+
+          DOB:<input type="date" id="dob">
+          <span id="msg3" style="color: red;"></span><br><br>
+
+          MobileNumber:<input type="number" id="pn">
+          <span id="msg4" style="color:red;"></span><br><br>
+
+          AdhaarNumber:<input type="number" id="an">
+          <span id="msg5" style="color:red;"></span><br><br>
+
+          Password:<input type="password" id="pass">
+          <span id="msg6" style="color: red;"></span><br><br>
+
+          Confirm Password:<input type="password" id="cpass">
+          <span id="msg7" style="color: red;"></span><br><br>
+
+          <input type="text"  name="c1" id="cap" value=""  readonly="">
+          <input type="button" value="CREATE CAPTCHA" onclick="dis()">
+          <span id="msg8" style="color: red;"></span><br><br>
+
+          CAPTCHA: <input type="text" id="wecap">
+          <span id="msg9" style="color: red;"></span><br><br>
+
+          Gender:<input type="radio" name="gen" id="g1">Male 
+                <input type="radio" name="gen" id="g2">Female
+                <input type="radio" name="gen" id="g3">Others
+                <span id="msg10" style="color: red;"></span><br><br>
+
+          <input type="submit" value="SUBMIT" id="sub">
+        </form>
+      </fieldset>
+    </div>
+
+        <script src="projectjs.js" >
+        </script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+#main{
+    border:1px solid;
+    width: auto;
+    height: 620px;
+    padding: 30px 400px 0px 200px;
+    background-image: url(jspic.jpg);
+    background-size: cover;
+}
+legend
+{  
+    color:white;
+    text-align: center;
+}
+fieldset
+{
+    margin-left: 150px;
+}
+input[type="text"]:active
+{   
+    background-color:lightgray;}
+input[type="number"]:active
+{   
+    background-color:lightgray;}
+input[type="password"]:active
+{   
+    background-color:lightgray;}
+#sub{
+    font-weight: bolder;
+    margin-left: 215px;
+}
+form{
+    color: white;
+}

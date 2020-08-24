@@ -1,0 +1,29 @@
+#one{
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    margin: 100px 0px 0px 200px;
+    padding:40px 0px 0px 0px;
+    background-color:lightgreen;
+}
+body{
+    background-image: url(images2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nam:hover
+{
+    background-color:lightcyan
+}
+#pass:hover
+{
+    background-color:lightcyan
+}
+#sub:hover{
+    background-color: lightgreen;
+}
+#sub{
+    font-weight: bolder;
+}
+
+
